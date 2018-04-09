@@ -1,0 +1,62 @@
+#introduction {
+    background: linear-gradient(rgba(177, 149, 25,1),
+    rgba(92, 63, 2, 0.8)),
+    url('..\\images\\digital-download-music.jpg') 0% 
+    0%/cover;
+    background: -moz-linear-gradient(rgba(177, 149, 25,1),
+    rgba(92, 63, 2, 0.8)),
+    url('..\\images\\digital-download-music.jpg') 0% 
+    0%/cover;
+
+    background: -webkit-linear-gradient(rgba(177, 149, 25,1),
+    rgba(92, 63, 2, 0.8)),
+    url('..\\images\\digital-download-music.jpg') 0% 
+    0%/cover;
+
+    background: -o-linear-gradient(rgba(177, 149, 25,1),
+    rgba(92, 63, 2, 0.8)),
+    url('..\\images\\digital-download-music.jpg') 0% 
+    0%/cover;
+}
+
+.fill-viewport {
+    min-height: 100vh;
+}
+
+.fill-80-viewport {
+    min-height: 80vh;
+}
+
+.text-white-70 {
+    color: rgba(255,255,255,0.7);
+}
+.text-white-40 {
+    color: rgba(255,255,255,0.4);
+}
+
+.text-black-40 {
+    color: rgba(0,0,0,0.4)
+}
+
+.text-black-70 {
+    color: rgba(0,0,0,0.7);
+}
+
+@media screen and (min-width: 768px) {
+    .basis-md-50 {
+        flex-basis: 50%;
+    }
+}
+
+.list-border-y {
+    border-top: 1px solid;
+}
+
+.list-border-y li:last-child {
+    border-bottom: 1px solid;
+}
+
+.list-border-black-20 li,
+.list-border-black-20 li:last-child {
+    border-color: rgba(0,0,0,0.2);
+}
